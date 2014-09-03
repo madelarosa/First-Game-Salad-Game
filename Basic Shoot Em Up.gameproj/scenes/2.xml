@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.17" GSCVersion="0.9.91" id="id781812">
+<scene PGFVersion="0.19" GSCVersion="0.10.0" id="id107256">
   <layers>
-    <layer id="id433223">
+    <layer id="id283915">
       <actors>
-        <actor id="id366184" prototype="id591440">
+        <actor id="id905094" prototype="id223664">
           <attributes>
             <point id="position">
-              <real id="x">239</real>
-              <real id="y">207.5</real>
-            </point>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes />
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-        <actor id="id315793" prototype="id289207">
-          <attributes>
-            <point id="position">
-              <real id="x">240</real>
-              <real id="y">82</real>
+              <real id="x">118</real>
+              <real id="y">174.5</real>
             </point>
             <size id="size">
-              <real id="width">100</real>
-              <real id="height">45</real>
+              <real id="width">69.1617036069127</real>
+              <real id="height">80.994005334454</real>
             </size>
+            <angle id="rotation">60.4612177404419</angle>
           </attributes>
           <aspects>
             <graphics>
@@ -49,7 +33,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Victory</text>
+    <text id="name">Aerial Combat Scene</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">480</real>
@@ -78,7 +62,7 @@
       </size>
       <size id="trackingArea">
         <real id="width">400</real>
-        <real id="height">240</real>
+        <real id="height">260</real>
       </size>
       <real id="rotation">0</real>
     </rect>
