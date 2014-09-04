@@ -3,12 +3,20 @@
   <layers>
     <layer id="id433223">
       <actors>
-        <actor id="id366184" prototype="id591440">
+        <actor id="id824539" prototype="id223664">
           <attributes>
             <point id="position">
-              <real id="x">239</real>
-              <real id="y">207.5</real>
+              <real id="x">165.5</real>
+              <real id="y">147</real>
             </point>
+            <size id="size">
+              <real id="width">75</real>
+              <real id="height">50</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <image id="image">ship</image>
+            <integer id="id724070" name="Player Health">100</integer>
+            <integer id="id802405" name="Boss Health">100</integer>
           </attributes>
           <aspects>
             <graphics>
@@ -23,23 +31,44 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id315793" prototype="id289207">
+        <actor id="id776805" prototype="id374303">
           <attributes>
             <point id="position">
               <real id="x">240</real>
-              <real id="y">82</real>
+              <real id="y">159</real>
             </point>
             <size id="size">
-              <real id="width">100</real>
-              <real id="height">45</real>
+              <real id="width">480</real>
+              <real id="height">320</real>
             </size>
+            <angle id="rotation">0</angle>
+            <text id="name">Background</text>
           </attributes>
           <aspects>
             <graphics>
-              <attributes>
-                <integer id="tileWidth" name="tileWidth">0</integer>
-                <integer id="tileHeight" name="tileHeight">0</integer>
-              </attributes>
+              <attributes />
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id204869" prototype="id141043">
+          <attributes>
+            <point id="position">
+              <real id="x">727.5</real>
+              <real id="y">160</real>
+            </point>
+            <size id="size">
+              <real id="width">490</real>
+              <real id="height">254</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes />
             </graphics>
             <motion />
             <physics>
@@ -55,7 +84,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Victory</text>
+    <text id="name">Aerial Combat Scene 1</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">480</real>
@@ -71,7 +100,7 @@
       <real id="red">0</real>
       <real id="green">0</real>
       <real id="blue">0</real>
-      <real id="alpha">1</real>
+      <real id="alpha">0</real>
     </color>
     <rect id="camera">
       <point id="origin">

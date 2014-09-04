@@ -17,7 +17,10 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -33,7 +36,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Aerial Combat Scene</text>
+    <text id="name">Victory</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">480</real>
